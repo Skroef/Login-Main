@@ -1,0 +1,2 @@
+C:\Users\ninno\Desktop\CMPG 223 coding program\Login Main\Login Main\obj\Debug\Login Main.csprojAssemblyReference.cache
+C:\Users\ninno\Desktop\CMPG 223 coding program\Login Main\Login Main\obj\Debug\Login Main.csproj.CoreCompileInputs.cache
