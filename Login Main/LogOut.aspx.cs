@@ -17,6 +17,8 @@ namespace Login_Main
         protected void btnFinLogOut_Click(object sender, EventArgs e)
         {
             //add logoff time to database
+
+            Response.Write("you have successfully loged out");
         }
     }
 }

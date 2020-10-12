@@ -55,7 +55,7 @@ namespace Login_Main
                     Session["New"] = txtLogName.Text;
                     Response.Write("Password is correct");
                     //Redirect to the next page.
-                    Response.Redirect();
+                    Response.Redirect("Orders.aspx");
                 }
                 else
                 {
