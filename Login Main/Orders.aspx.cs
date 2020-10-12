@@ -71,5 +71,10 @@ namespace Login_Main
             cmd.ExecuteNonQuery();
             conn.Close();
         }
+
+        protected void btnLogOut_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LogOut.aspx");
+        }
     }
 }

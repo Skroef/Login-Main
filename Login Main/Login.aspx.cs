@@ -67,5 +67,10 @@ namespace Login_Main
                 Response.Write("Username is NOT correct");
             }
         }
+
+        protected void btnLRegister_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Resistration.aspx");
+        }
     }
 }

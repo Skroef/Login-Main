@@ -45,7 +45,7 @@ namespace Login_Main
             conn.Close();
         
             Response.Write("Your registration is successfull");
-            Response.Redirect(Login);
+            Response.Redirect("Login.aspx");
         }
     }
 }

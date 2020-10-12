@@ -36,11 +36,11 @@
         }
         .auto-style8 {
             width: 339px;
-            height: 149px;
+            height: 112px;
             background-color: #00FF00;
         }
         .auto-style9 {
-            height: 149px;
+            height: 112px;
             width: 431px;
             background-color: #FFFF00;
             text-align: left;
@@ -55,11 +55,20 @@
         .auto-style12 {
             font-size: large;
         }
+        .auto-style13 {
+            height: 575px;
+        }
+        .auto-style14 {
+            width: 445px;
+            font-size: xx-large;
+            background-color: #FFFF00;
+            height: 112px;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="auto-style13">
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style2"><strong><span class="auto-style11">Table </span>
@@ -87,7 +96,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style2"><span class="auto-style12"><strong>
+                    <td class="auto-style14"><span class="auto-style12"><strong>
                         <br />
                         Total</strong></span><strong><span class="auto-style12"> Change: </span>
                         <asp:Label ID="Label4" runat="server" CssClass="auto-style12" Text="."></asp:Label>
@@ -117,6 +126,15 @@
                         </strong>
                         <br />
                         <asp:Button ID="Button3" runat="server" Text="Delivered" OnClick="Button3_Click" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style14">&nbsp;</td>
+                     
+                    <td class="auto-style8">
+                        &nbsp;</td>
+                    <td class="auto-style9">
+                        <asp:Button ID="btnLogOut" runat="server" OnClick="btnLogOut_Click" Text="Logout" />
                     </td>
                 </tr>
             </table>
